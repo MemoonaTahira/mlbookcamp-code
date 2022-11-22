@@ -99,7 +99,6 @@ inv = np.linalg.inv(V)
 
 
 Add notes here (PRs are welcome).
-
 <table>
    <tr>
       <td>⚠️</td>
