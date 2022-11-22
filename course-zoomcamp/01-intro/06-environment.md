@@ -21,10 +21,18 @@ You need:
 |Work completely online & OS independent - Useful for simple ML and light-weight deep learning: Kaggle and Colab| :white_check_mark: | :x: | :x: | [Getting started with Kaggle / Colab](#notebook-services)
 |Work in local terminal in any OS, whereas backend is cloud. Esp useful for slow systems that have less than required RAM/GPU - Useful for for AutoML, Advanced ML, heavy-duty deep learning, esp deployment.<br/><br/> Common ML on cloud service providers: AWS, GCP or Azure. Please note that the OS you should select in any cloud platform is Ubuntu/any other Linux disto| :white_check_mark: | :white_check_mark:| :white_check_mark: | [Setting up Ubuntu on AWS](#ubuntu-on-aws)  
 
+## Ubuntu 22.04 on AWS
+
+* [This video](https://www.youtube.com/watch?v=IXSiYkP23zo) shows a complete end-to-end environment configuration for an AWS EC2 instance
+* This video was created for another course (MLOps Zoomcamp), so you'll need to adjust it slightly: clone this repo instead of the mlops one
+* You can use these instructions for setting up your local Ubuntu
+
+Note for WSL 
+
 * Most of the instructions from the previous video apply to WSL too
 * For setting up Docker, install Docker Desktop on Windows and it'll be automatically used in WSL. You don't need to install docker.io
 
-## [Anaconda and Conda](anaconda-and-conda)
+## Anaconda and Conda
 
 The easiest way to set up the environment is to use [Anaconda](https://www.anaconda.com/products/individual) or
 [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
